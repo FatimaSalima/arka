@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  padding: 10px 10px;
+  border: 1px solid #3D5675;
+  background: #3D5675;
+  border-radius: 44px;
+  transition: .4s;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #3D5675;
+  }
+}
+@mixin bn {
+  width: 204px;
+  height: 44px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 44px;
+  transition: .4s;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #3D5675;
+  }
+}
+@mixin bnn {
+  width: 158px;
+  height: 44px;
+  border: 1px solid #3D5675;
+  background: white;
+  border-radius: 44px;
+  transition: .4s;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #3D5675;
+  }
+}
+@mixin bbb{
+  background: #F2F2F2;
+  border-radius: 44px;
+  width: 160px;
+  height: 44px;
+  border: 1px solid white;
+  transition: .4s;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  &:hover{
+    transform: scale(1.1);
+    background: transparent;
+    color: #3D5675;
+  }
+}
+@mixin bt {
+  width: 187px;
+  height: 44px;
+  border: 1px solid #3D5675;
+  background: #3D5675;
+  border-radius: 44px;
+  transition: .4s;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #3D5675;
+  }
+}
